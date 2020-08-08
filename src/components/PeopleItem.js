@@ -11,14 +11,19 @@ const theme = getTheme();
 
 const PeopleItem = (props) => {
   return (
-    <View>
-      <Image />
-      <Icon />
-      <Text>
+    <View style={[theme.cardStyle, styles.card]}>
+      <Image
+        source={require('../images/background.jpg')}
+        style={[theme.cardImageStyle, styles.image]}
+      />
+      <Icon name={'user'} size={100} style={styles.icon} />
+      <Text style={[theme.cardTitleStyle, styles.title]}>
         {props.people.firstName}
         {props.people.lastName}
       </Text>
-      <Text>{props.people.company}</Text>
+      <Text style={[theme.cardActionStyle, styles.action]}>
+        {props.people.company}
+      </Text>
     </View>
   );
 };
@@ -31,7 +36,7 @@ const styles = StyleSheet.create({
   },
   title: {
     top: 20,
-    left: 20,
+    left: 80,
     fontSize: 24,
   },
   image: {
