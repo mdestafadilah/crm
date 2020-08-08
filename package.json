@@ -13,8 +13,10 @@
     "jetifier": "^1.6.6",
     "react": "16.13.1",
     "react-native": "0.63.2",
+    "react-native-gesture-handler": "^1.7.0",
     "react-native-material-kit": "^0.6.0-beta.1",
     "react-native-vector-icons": "^7.0.0",
+    "react-navigation": "^4.4.0",
     "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
