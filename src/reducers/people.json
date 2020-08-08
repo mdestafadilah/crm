@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "firstName": "Desta",
+    "lastName": "Muchamad",
+    "phone": "083898973731",
+    "company": "RSUP Persahabatan",
+    "project": "CRM Project",
+    "notes": "Ini Catatan"
+  },
+  {
+    "id": 2,
+    "firstName": "Fadilah",
+    "lastName": "Muchamad",
+    "phone": "083898973731",
+    "company": "RSUP Persahabatan",
+    "project": "CRM Project",
+    "notes": "Ini Catatan"
+  },
+  {
+    "id": 3,
+    "firstName": "Desta",
+    "lastName": "Fadilah",
+    "phone": "083898973731",
+    "company": "RSUP Persahabatan",
+    "project": "CRM Project",
+    "notes": "Ini Catatan"
+  },
+  {
+    "id": 4,
+    "firstName": "Desta",
+    "lastName": "Muchamad Fadilah",
+    "phone": "083898973731",
+    "company": "RSUP Persahabatan",
+    "project": "CRM Project",
+    "notes": "Ini Catatan"
+  }
+]

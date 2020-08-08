@@ -1,0 +1,1 @@
+export GET_PEOPLE = "GET_PEOPLE";
